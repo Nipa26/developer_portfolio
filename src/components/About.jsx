@@ -57,12 +57,8 @@ function About() {
 
                         <p className="mt-7 leading-8 text-slate-400">
                             Hello! I'm a passionate developer who loves transforming creative ideas into functional and
-                            beautiful web applications.
-                        </p>
-
-                        <p className="mt-5 leading-8 text-slate-400">
-                            I enjoy learning new technologies, solving challenging problems and building user-friendly
-                            websites with clean and efficient code.
+                            beautiful web applications. <br />I enjoy learning new technologies, solving challenging
+                            problems and building user-friendly websites with clean and efficient code.
                         </p>
 
                         <div className="mt-9 grid gap-4 sm:grid-cols-2">
