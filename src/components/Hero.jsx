@@ -4,7 +4,7 @@ function Hero() {
     return (
         <section
             id="home"
-            className="relative flex min-h-screen items-center overflow-hidden bg-slate-950 px-6 pb-16 pt-32"
+            className="relative flex min-h-screen items-center overflow-hidden bg-slate-950 px-6 pb-16 pt-12"
         >
             {/* Background Effects */}
             <div className="pointer-events-none absolute -left-40 top-20 h-96 w-96 rounded-full bg-blue-600/20 blur-[120px]" />

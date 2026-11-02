@@ -27,7 +27,7 @@ function Contact() {
     };
 
     return (
-        <section id="contact" className="bg-slate-900 px-6 py-24">
+        <section id="contact" className="bg-slate-900 px-6 py-6">
             <div className="mx-auto max-w-7xl">
                 <div className="mb-14 text-center">
                     <p className="mb-3 text-sm font-semibold uppercase tracking-[4px] text-blue-400">Get In Touch</p>

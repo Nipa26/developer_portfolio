@@ -25,7 +25,7 @@ const highlights = [
 
 function About() {
     return (
-        <section id="about" className="relative overflow-hidden bg-slate-900 px-6 py-24 md:py-32">
+        <section id="about" className="relative overflow-hidden bg-slate-900 px-6 py-6 md:py-6">
             <div className="pointer-events-none absolute -left-40 top-20 h-80 w-80 rounded-full bg-blue-600/10 blur-[120px]" />
 
             <div className="relative mx-auto max-w-7xl">

@@ -1,4 +1,7 @@
-import { ArrowUp, Code2, Mail } from 'lucide-react';
+import { ArrowUp, Code2 } from 'lucide-react';
+import { Link } from 'react-router-dom';
+const footerLinks = [{ name: 'Contact', to: '/contact' }];
+
 function Footer() {
     return (
         <footer className="border-t border-white/10 bg-slate-950 px-6 py-16">
@@ -15,13 +18,12 @@ function Footer() {
                 </p>
 
                 {/* Contact Button */}
-                <a
-                    href="#contact"
-                    className="mb-10 inline-flex items-center gap-2 rounded-full bg-linear-to-r from-blue-600 to-purple-600 px-7 py-3 font-semibold text-white transition hover:scale-105"
+                <Link
+                    to="/contact"
+                    className="hidden rounded-full bg-blue-600 px-6 py-2.5 text-sm font-semibold text-white transition hover:bg-blue-700 md:block"
                 >
-                    <Mail size={18} />
                     Let's Talk
-                </a>
+                </Link>
 
                 {/* Divider */}
                 <div className="mb-7 h-px w-full bg-white/10"></div>
@@ -32,13 +34,13 @@ function Footer() {
                 </p>
 
                 {/* Back to Top */}
-                <a
-                    href="#home"
+                <Link
+                    to="/home"
                     className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-blue-400 transition hover:text-blue-300"
                 >
                     Back to Top
                     <ArrowUp size={16} />
-                </a>
+                </Link>
             </div>
         </footer>
     );
